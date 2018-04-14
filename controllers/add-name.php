@@ -1,5 +1,5 @@
 <?php
 
-$app['database']->insert('users', $_POST);
+App::get('database')->insert('users', $_POST);
 
 header('Location: /');
