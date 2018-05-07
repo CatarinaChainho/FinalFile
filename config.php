@@ -2,7 +2,7 @@
 
 return [
 	'database' => [
-		'name' => 'todos',
+		'name' => 'lokaverkefni',
 		'username' => 'root',
 		'password' => '',
 		'connection' => 'mysql:host=127.0.0.1',

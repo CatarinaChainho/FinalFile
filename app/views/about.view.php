@@ -1,5 +1,7 @@
 <?php require 'partials/header.view.php'; ?>
 
-	<h1>About</h1>
+<div class="p-8">
+	<h1>About <?= $company; ?></h1>
+</div>
 
 <?php require 'partials/footer.view.php'; ?>

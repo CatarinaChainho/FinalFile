@@ -4,24 +4,25 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitdf36e3fc0cf556300474836fc331c7a4
+class ComposerStaticInit91f502782e4d6782899edd52025eb5d5
 {
     public static $classMap = array (
-        'App' => __DIR__ . '/../..' . '/core/App.php',
-        'ComposerAutoloaderInitdf36e3fc0cf556300474836fc331c7a4' => __DIR__ . '/..' . '/composer/autoload_real.php',
+        'App\\Controllers\\PagesController' => __DIR__ . '/../..' . '/app/controllers/PagesController.php',
+        'App\\Controllers\\UsersController' => __DIR__ . '/../..' . '/app/controllers/UsersController.php',
+        'App\\Core\\App' => __DIR__ . '/../..' . '/core/App.php',
+        'App\\Core\\Request' => __DIR__ . '/../..' . '/core/Request.php',
+        'App\\Core\\Router' => __DIR__ . '/../..' . '/core/Router.php',
+        'ComposerAutoloaderInit91f502782e4d6782899edd52025eb5d5' => __DIR__ . '/..' . '/composer/autoload_real.php',
         'Composer\\Autoload\\ClassLoader' => __DIR__ . '/..' . '/composer/ClassLoader.php',
-        'Composer\\Autoload\\ComposerStaticInitdf36e3fc0cf556300474836fc331c7a4' => __DIR__ . '/..' . '/composer/autoload_static.php',
+        'Composer\\Autoload\\ComposerStaticInit91f502782e4d6782899edd52025eb5d5' => __DIR__ . '/..' . '/composer/autoload_static.php',
         'Connection' => __DIR__ . '/../..' . '/core/database/Connection.php',
-        'PageController' => __DIR__ . '/../..' . '/controllers/PagesControllers.php',
         'QueryBuilder' => __DIR__ . '/../..' . '/core/database/QueryBuilder.php',
-        'Request' => __DIR__ . '/../..' . '/core/Request.php',
-        'Router' => __DIR__ . '/../..' . '/core/Router.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->classMap = ComposerStaticInitdf36e3fc0cf556300474836fc331c7a4::$classMap;
+            $loader->classMap = ComposerStaticInit91f502782e4d6782899edd52025eb5d5::$classMap;
 
         }, null, ClassLoader::class);
     }

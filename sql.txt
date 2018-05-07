@@ -1,0 +1,6 @@
+CREATE TABLE test (
+    id int AUTO_INCREMENT PRIMARY KEY,
+    title varchar(50),
+    body longtext,
+    owner varchar(50)
+ )

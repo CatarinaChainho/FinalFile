@@ -1,0 +1,90 @@
+/*make the HTML and Body a certain size*/
+html, body {
+	height: 100%;
+	margin: 0px;
+	width: 100%;
+	background-color: #d3f4;
+	font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+}
+
+/*the place we write the details*/
+.posts-inputs {
+	box-shadow: 4px 4px rgba(0, 0, 0, .2);
+	text-align: center;
+	border: 1px solid grey;
+	border-radius: 10px;
+	margin: 1%;
+	background-color: #dadbd4;
+}
+
+/*all the inputs style*/
+.input {
+	margin: 10px;
+	text-transform: capitalize;
+}
+
+/*changing size of the title input*/
+.is-success {
+	width: 25%;
+}
+
+/*moving the title input*/
+.title-input {
+	text-align: left;
+}
+
+/*changing size of the body input*/
+.is-danger {
+	width: 95%;
+}
+
+/*moving the body input*/
+.body-input {
+	text-align: center;
+}
+
+/*changing size of the owner input*/
+.is-info {
+	width: 25%;
+}
+
+/*moving the owner input*/
+.owner-input {
+	text-align: right;
+}
+
+
+/*styling the buttons*/
+.submit-btn {
+	text-align: right;
+	margin-bottom: 1%;
+	padding-right: 1%;
+}
+
+/*the place we display the posts*/
+.posts-display {
+	background-color: #dadbd4;
+	border: 1px solid grey;
+	margin: 1%;
+	margin-bottom: 1%;
+	border-radius: 10px;
+	box-shadow: 4px 4px rgba(0, 0, 0, .2);
+}
+
+.body-output {
+	text-align: center;
+}
+
+.owner-output {
+	text-align: right;
+}
+
+.delete-btn {
+	background-color: #cc4ee5;
+	color: #dec9e2;
+	margin: 0.25%;
+}
+
+.delete-btn:hover {
+	font-weight: bold;
+}

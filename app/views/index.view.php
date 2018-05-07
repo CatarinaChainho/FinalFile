@@ -1,5 +1,7 @@
 <?php require 'partials/header.view.php'; ?>
 
-	<h1>Our culture at <?= $name; ?></h1>
+<div class="p-8">
+	<h1>Home page</h1>
+</div>
 
 <?php require 'partials/footer.view.php'; ?>

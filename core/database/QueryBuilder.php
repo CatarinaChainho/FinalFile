@@ -32,7 +32,7 @@ class QueryBuilder
 
 			$statement->execute($parameters);
 		} catch(PDOException $e) {
-			die('Ekki náðist að vista gögn.');
+			die($e->getMessage());
 		}
 	}
 }
